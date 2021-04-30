@@ -1,0 +1,8 @@
+/node_modules/
+/.cache-loader/
+/.idea/
+/.rar/
+/.vscode/
+package-lock.json
+yarn.lock
+.DS_Store
