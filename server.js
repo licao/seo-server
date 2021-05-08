@@ -19,19 +19,19 @@ app.use(function(req, res, next){
         res.status(500).send('Server error');
     }
     })();
-    next();
+    // next();
 });
 
 
 // 先
-app.use(staticFileMiddleware);
+// app.use(staticFileMiddleware);
 
 // 如果资源没命中会继续、经过history rewirte后
-app.use(history({
-  disableDotRule: true,
-  verbose: true
-}));
+// app.use(history({
+//   disableDotRule: true,
+//   verbose: true
+// }));
 
 // 再次处理
-app.use(staticFileMiddleware);
+// app.use(staticFileMiddleware);
 server.listen(listenPort);
