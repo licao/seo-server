@@ -1,18 +1,21 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "cross-env NODE_ENV=default node server.js"
   },
   "name": "support-seo-server",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
-  "author": "",
+  "author": "Nemo Cao",
   "license": "ISC",
-  "description": "",
+  "description": "seo server",
+  "repository": "http://gitlab.os.adc.com/oppo-global-website/support-seo-server.git",
+  "devDependencies": {
+    "cross-env": "^6.0.3"
+  },
   "dependencies": {
     "cacheman": "^2.2.1",
     "cacheman-file": "^0.2.1",
-    "connect-history-api-fallback": "^1.6.0",
+    "config": "^3.2.5",
     "express": "^4.17.1",
     "md5-node": "^1.0.1",
     "puppeteer": "^8.0.0"

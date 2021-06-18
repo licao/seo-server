@@ -1,0 +1,12 @@
+{
+    "title": "Local Server",
+    "server": {
+        "port": 8088,
+        "targetUrl": "https://support.oppo.com",
+        "ttl": 300,
+        "cacheDir": "./tmp"
+    },
+    "browser":{
+        "size": 2
+    }
+}
